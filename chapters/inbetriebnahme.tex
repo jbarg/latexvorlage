@@ -2,17 +2,28 @@
 \label{sec:Inbetriebnahme}
 
 \section{CAN Verbindung zwischen Steuereinheit und Arm}
-\section{Aufsetzten der Steuerungssoftware}
-Bisweilen wurde das Setup auf einem Ubuntu 12.04 LTS mit Kernelnummer: xxx getestet.
-Um eine Installation der IPA CANopen Libary durchzuführen, bestehen derzeit zwei Möglichkeiten:
+\section{Installation der Steuerungssoftware}
+In diesem Kapitel soll ein detailierter Überblick über die den Installationsprozess des CAN Treibers und der IPA CANopen Libary gegeben werden
 \begin{itemize}
-   \item Für eine Installation mit ROS, siehe Kapitel: \ref{sec:ROSinstall}
-   \item Für eine ROS unabhängige Installation, siehe Kapitel: \ref{sec:withoutROSinstall}
+ 	\item Für eine Installation mit ROS, siehe Kapitel: \ref{sec:ROSinstall}
+    \item Für eine ROS unabhängige Installation, siehe Kapitel: \ref{sec:withoutROSinstall}
+
+\end{itemize}
+\subsection{Erforderliche Third-Party Software}
+Um eine problemfreie Installation zu gewährleisten, muss einige Software auf dem Steuercomputer
+installiert sein.
+\begin{itemize}
+	\item Ein C++ Compiler mit Unterstützung des C++11 Standards, z.B. \textit{gcc} 
+	oder \textit{g++} Version 2.6 oder höher.\\
+	\texttt{sudo apt-get install gcc}
+	\item Die aktuelle Version des Versionierungstool \textit{git}\\
+	\texttt{sudo apt-get install git}
+	\item 
 
 \end{itemize}
 
 
-\section{}
-\section{}
-\section{}
-\section{}
+\subsection{Installation des CAN Treibers}
+\subsection{Installation der IPA CANopen Libary}
+\subsubsection{Manuelle ROS unabhängige Installation}
+% \subsubsection{}
