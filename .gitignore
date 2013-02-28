@@ -1,0 +1,14 @@
+
+.DS_Store
+
+chapters/grundlagen.aux
+
+includes/titelpage.aux
+
+*.aux
+
+main.log
+
+*.idx
+
+*.out
